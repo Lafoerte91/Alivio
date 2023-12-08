@@ -7,9 +7,71 @@
 .header-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.header-logo {
+  margin-right: 172px;
 }
 
 .header-nav {
   font-weight: 500;
+  color: #292929;
 }
+
+.header-nav a {
+  transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+  color: #01996D;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li:not(:last-child) {
+  margin-right: 70px;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.login__sign {
+  margin-right: 35px;
+}
+
+.header-login a {
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.header-login a:hover:not(:last-child) {
+  color: #01996D;
+}
+
+.btn, a.btn {
+  display: inline-block;
+  min-height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 50px;
+  color: #FFF;
+  background-color: #01996D;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover, a.btn:hover {
+  opacity: 0.8;
+}
+
+
+
+
