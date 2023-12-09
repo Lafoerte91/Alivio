@@ -1,0 +1,40 @@
+.home {
+  padding: 175px 0;
+  min-height: 895px;
+  position: relative;
+}
+
+.home-content {
+  max-width: 440px;
+}
+
+.home-heading {
+  color: #01996D;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: 'Georgia', serif;
+  margin-bottom: 30px;
+}
+
+.home-text {
+  color: #484848;
+  line-height: 157%; /* 31.4px */
+  margin-bottom: 53px;
+  max-width: 420px;
+}
+
+.home-bg-image {
+  z-index: -1;
+  background-color: bisque;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.home-bg-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
