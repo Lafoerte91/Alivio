@@ -1,0 +1,30 @@
+.story {
+  background-color: #245852;
+  color: #FFFFFF;
+  padding: 229px 0 176px;
+}
+
+.story-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.story-content {
+  margin-right: 30px;
+}
+
+.story-heading {
+  font-size: 50px;
+  line-height: 157%;
+  font-weight: 700;
+  font-family: 'Georgia', serif;
+  margin-bottom: 33px;
+}
+
+.story-text {
+  margin-bottom: 57px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 157%;
+}
