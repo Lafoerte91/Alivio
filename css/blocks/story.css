@@ -12,6 +12,7 @@
 
 .story-content {
   margin-right: 30px;
+  max-width: 580px;
 }
 
 .story-heading {
@@ -28,3 +29,31 @@
   font-weight: 600;
   line-height: 157%;
 }
+
+.story-btn {
+  display: flex;
+}
+
+.story-video {
+  width: 895px;
+  position: relative;
+}
+
+.story-video-overlay { 
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.20);
+  border-radius: 16px;
+}
+
+.story-video-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
