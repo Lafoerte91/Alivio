@@ -37,6 +37,7 @@
 .story-video {
   width: 895px;
   position: relative;
+  overflow: hidden;
 }
 
 .story-video-overlay { 

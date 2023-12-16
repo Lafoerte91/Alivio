@@ -2,6 +2,7 @@
   padding-top: 17px;
   padding-bottom: 17px;
   border-bottom: 1px solid #D6D6D6;
+  line-height: 1;
 }
 
 .header-row {
@@ -45,12 +46,34 @@
 }
 
 .header-login a {
+  margin-top: -1px;
   color: #000;
   transition: color 0.2s ease;
 }
 
 .header-login a:hover:not(:last-child) {
   color: #01996D;
+}
+
+@media (max-width: 1199px) {
+  .header-row {
+    justify-content: space-between;
+  }
+  .header-logo {
+    margin-right: 30px;
+  }
+  .header-nav li:not(:last-child) {
+    margin-right: 50px;
+  }
+  .header-login {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-nav, .header-login {
+    display: none;;
+  }
 }
 
 
