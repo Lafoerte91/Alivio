@@ -96,3 +96,36 @@
   grid-template-columns: repeat(auto-fit, 390px);
   column-gap: 95px;
 }
+
+@media(max-width: 1399px) {
+  .how-it-works {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .how-it-works-header {
+    flex-direction: column;
+    padding-bottom: 52px;
+  }
+
+  .how-it-works-sub-title {
+    line-height: 130%;
+    font-size: 40px;
+  }
+
+  .how-it-works-header-content {
+    padding-top: 20px;
+  }
+}
+
+@media(max-width: 1389px) {
+  .step:nth-child(2), .step:nth-child(3) {
+    padding-top: 0;
+  }
+}
+
+@media(max-width: 419px) {
+  .how-it-works-steps {
+    grid-template-columns: 1fr;
+  }
+}
