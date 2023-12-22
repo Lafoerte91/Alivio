@@ -55,3 +55,9 @@
 .card ul li:not(:last-child) {
   margin-bottom: 16px;
 }
+
+@media (max-width: 500px) {
+  .card {
+    width: 296px;
+  }
+}
