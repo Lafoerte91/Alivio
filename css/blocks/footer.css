@@ -43,10 +43,20 @@
   }
 }
 
-@media (max-width: 991px) {
-  
-}
-
 @media (max-width: 500px) {
-  
+  .footer {
+    padding: 40px 0 60px;
+  }
+
+  .footer-logo {
+    margin-bottom: 40px;
+  }
+
+  .footer-nav {
+    font-size: 18px;
+  }
+
+  .footer-nav li:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
