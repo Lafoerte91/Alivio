@@ -50,6 +50,12 @@
   border-radius: 16px;
 }
 
+.story-video-object {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
 .story-video-btn {
   position: absolute;
   left: 50%;
